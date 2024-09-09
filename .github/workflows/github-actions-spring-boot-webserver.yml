@@ -2,7 +2,7 @@ name: Multi-Cloud Apps with GraalVM - Up and Running
 on:
   push:
     paths:
-      - 'native-image/spring-boot-webserver'
+      - 'native-image/spring-boot-webserver/**'
       - '.github/workflows/github-actions-spring-boot-webserver.yml'
 jobs:
   build:
